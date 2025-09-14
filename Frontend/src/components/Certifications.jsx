@@ -26,7 +26,7 @@ const Certifications = () => {
   provider: "PCTE - Punjab College of Technical Education",
   duration: "2 Days",
   year: "2024",
-  description: "Developed an AI-powered finance assistant as part of a team and won 1st place.",
+  description: "Developed an AI-powered finance assistant as part of a team",
   certificateLink: "https://drive.google.com/file/d/1C_kQ860BQ6cKUaRJTUJL9UvvOYG6gBDP/view?usp=sharing" // or a public link
 }
 , {
@@ -35,7 +35,7 @@ const Certifications = () => {
       duration: "Completed Online",
       year: "2025",
       description:
-        "Explored advanced MERN topics including JWT, Redux, and deployment.",
+        "Explored advanced MERN topics including JWT, Axios, and deployment.",
       certificateLink: "https://drive.google.com/file/d/1VUN6PQ8_qkDIYijGbo0Jnd8n0W1dXVn8/view?usp=sharing"
     },
     {
