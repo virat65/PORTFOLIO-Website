@@ -3,14 +3,38 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "E-Commerce         (Food Ordering Website)",
       description:
-        "A full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database. Features include user authentication, shopping cart, payment integration, and admin dashboard.",
-      image:
-        "https://images.unsplash.com/photo-1586880244386-8b3e34c8382c?auto=format&fit=crop&w=1080&q=80",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
+        "A full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database. Features include user authentication, shopping cart and admin dashboard.",
+      image: "/Foodwagon.png",
+      technologies: ["React", "Node.js", "MongoDB", "Express", "Bootstrap "],
+      liveDemo: "https://lastfoodwagon-frontend-tqo1.onrender.com/",
+      github: "https://github.com/virat65/LastFoodwagon.git",
+    },
+    {
+      title: "Weather App",
+      description:
+        "A responsive weather application that provides current weather conditions, forecasts, and location-based weather update (included wind speed) with a clean, intuitive interface and the autocomplete city names",
+      image: "/Weather.png",
+      technologies: ["React", "Weather API", "CSS3"],
+      liveDemo: "https://weatherappproject-41dx.onrender.com",
+      github: "https://github.com/virat65/WeatherAppProject.git",
+    },
+    {
+      title: "Portfolio Website",
+      description:
+        "A modern, responsive portfolio website showcasing my projects, skills, hobbies, experience, hard work and my journey in this Profession with smooth animations and optimized performance.",
+      image: "/PortfolioWebsite.png",
+      technologies: [
+        "Html",
+        " Icons",
+        "React",
+        "Bootstrap",
+        "EmailJs",
+        "Render",
+      ],
       liveDemo: "#",
-      github: "#",
+      github: "https://github.com/virat65/PORTFOLIO-Website.git",
     },
     {
       title: "Task Management App",
@@ -42,26 +66,6 @@ const Projects = () => {
       liveDemo: "#",
       github: "#",
     },
-    {
-      title: "Weather App",
-      description:
-        "A responsive weather application that provides current weather conditions, forecasts, and location-based weather updates with a clean, intuitive interface.",
-      image:
-        "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=1080&q=80",
-      technologies: ["React", "Weather API", "CSS3", "Geolocation"],
-      liveDemo: "#",
-      github: "#",
-    },
-    {
-      title: "Portfolio Website",
-      description:
-        "A modern, responsive portfolio website showcasing projects, skills, and experience with smooth animations and optimized performance.",
-      image:
-        "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=1080&q=80",
-      technologies: ["React", "Bootstrap", "Framer Motion", "Vercel"],
-      liveDemo: "#",
-      github: "#",
-    },
   ];
 
   return (
@@ -86,7 +90,7 @@ const Projects = () => {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="card-img-top project-img card-image "
+                    className="card-img-top project-img card-image img-fluid"
                   />
                 </div>
                 <div className="card-body d-flex flex-column">

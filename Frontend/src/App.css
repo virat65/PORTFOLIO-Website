@@ -38,9 +38,11 @@
 }
 
 .project-img {
+  padding: 5px;
   object-fit: cover;
   transition: transform 0.5s ease;
-height: 200px !important;
+height: auto !important;
+width: auto;
 
 }
 
