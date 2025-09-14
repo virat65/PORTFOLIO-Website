@@ -139,10 +139,11 @@ const Footer = () => {
           </div>
 
           {/* Contact */}
-          <div className="col-6 col-lg-4 " style={{ cursor: "pointer" }}>
+          <div className="col-6 col-lg-4 fs-6 " style={{ cursor: "pointer" }}>
             <h5 className="fw-bold p-2">Contact</h5>
             <p className=" mb-1 p-2">📍 Mohali,Punjab, India</p>
-            <p className=" mb-1 p-2">📧 virat1322420@gmail.com</p>
+           <p className="mb-1 p-2 text-break">📧 virat1322420@gmail.com</p>
+
             <p className="p-2">📞 +91 8427446698</p>
           </div>
         </div>
