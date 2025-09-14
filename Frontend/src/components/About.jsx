@@ -27,7 +27,7 @@ const About = () => {
           ></div>
         </div>
 
-        <div className="row align-items-center g-5">
+        <div className="row align-items-center g-5 w-100">
           {/* Profile Image */}
           <div className="col-lg-6 d-flex justify-content-center">
             <div className="position-relative">
