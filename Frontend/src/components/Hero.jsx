@@ -20,8 +20,9 @@ const Hero = () => {
             </h1>
             <h2 className="h3 mb-4 text-light">Web Developer</h2>
             <p className="lead mb-4">
-              Passionate full-stack developer specializing in modern web technologies.
-              I create responsive, user-friendly applications that solve real-world problems.
+              Passionate full-stack developer specializing in modern web
+              technologies. I create responsive, user-friendly applications that
+              solve real-world problems.
             </p>
 
             <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
@@ -34,7 +35,7 @@ const Hero = () => {
               <button
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1P6x1mNk-Zws95jy6qJu5uTYMGtpXc2tp/view?usp=sharing"
+                    "https://drive.google.com/file/d/14aT7oLKcwdkz80ZuSDS3-WgCdsTw6NBT/view?usp=sharing"
                   )
                 }
                 className="btn btn-outline-light px-4 py-2 fw-medium"
@@ -61,11 +62,21 @@ const Hero = () => {
               {/* Floating elements */}
               <div
                 className="position-absolute bg-warning rounded-circle opacity-75"
-                style={{ width: "80px", height: "80px", top: "-20px", right: "-20px" }}
+                style={{
+                  width: "80px",
+                  height: "80px",
+                  top: "-20px",
+                  right: "-20px",
+                }}
               ></div>
               <div
                 className="position-absolute bg-danger rounded-circle opacity-75"
-                style={{ width: "60px", height: "60px", bottom: "-20px", left: "-20px" }}
+                style={{
+                  width: "60px",
+                  height: "60px",
+                  bottom: "-20px",
+                  left: "-20px",
+                }}
               ></div>
             </div>
           </div>

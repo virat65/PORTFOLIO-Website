@@ -4,13 +4,23 @@ import React from "react";
 const Skills = () => {
   const skillCategories = [
     {
+      title: "Programming Languages",
+      skills: [
+        { name: "C", level: 71 },
+        { name: "JavaScript", level: 92 },
+        { name: "C++", level: 75 },
+        { name: "Java", level: 80 },
+        { name: "Python", level: 88 },
+      ],
+    },
+    {
       title: "Frontend",
       skills: [
         { name: "HTML/CSS", level: 95 },
         { name: "JavaScript", level: 90 },
         { name: "React", level: 88 },
-        { name: "Bootstrap", level: 80 }
-      ]
+        { name: "Bootstrap", level: 80 },
+      ],
     },
     {
       title: "Backend",
@@ -18,16 +28,16 @@ const Skills = () => {
         { name: "Node.js", level: 85 },
         { name: "Express.js", level: 80 },
         { name: "REST APIs", level: 85 },
-        { name: "Authentication", level: 75 }
-      ]
+        { name: "Authentication", level: 75 },
+      ],
     },
     {
       title: "Database",
       skills: [
         { name: "MongoDB", level: 80 },
         { name: "MySQL", level: 70 },
-        { name: "Firebase", level: 75 }
-      ]
+        { name: "Firebase", level: 75 },
+      ],
     },
     {
       title: "Tools & Others",
@@ -35,9 +45,9 @@ const Skills = () => {
         { name: "Git/GitHub", level: 90 },
         { name: "VS Code", level: 95 },
         { name: "Figma", level: 70 },
-        { name: "Postman", level: 85 }
-      ]
-    }
+        { name: "Postman", level: 85 },
+      ],
+    },
   ];
 
   const ProgressBar = ({ skill }) => {

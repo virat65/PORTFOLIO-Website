@@ -10,7 +10,8 @@ const Certifications = () => {
       year: "2024",
       description:
         "Learned HTML, CSS, JavaScript, and responsive design using Bootstrap.",
-      certificateLink: "https://drive.google.com/file/d/1xZRxD_Vkjhwj_b-kV5txVIWvU2rMgXx5/view?usp=sharing"
+      certificateLink:
+        "https://drive.google.com/file/d/1xZRxD_Vkjhwj_b-kV5txVIWvU2rMgXx5/view?usp=sharing",
     },
     {
       title: "Junior Software Developer Training",
@@ -19,24 +20,28 @@ const Certifications = () => {
       year: "2024-2025",
       description:
         "Gained knowledge in Java, OOP concepts, database management, employability skills, and teamwork.",
-      certificateLink: "https://drive.google.com/file/d/1Z32yyKTRELjiqHrjPsqH_G84GercB5Lv/view?usp=sharing"
+      certificateLink:
+        "https://drive.google.com/file/d/1Z32yyKTRELjiqHrjPsqH_G84GercB5Lv/view?usp=sharing",
     },
     {
-  title: "Hackathon  Participant",
-  provider: "PCTE - Punjab College of Technical Education",
-  duration: "2 Days",
-  year: "2024",
-  description: "Developed an AI-powered finance assistant as part of a team and won 1st place.",
-  certificateLink: "https://drive.google.com/file/d/1C_kQ860BQ6cKUaRJTUJL9UvvOYG6gBDP/view?usp=sharing" // or a public link
-}
-, {
+      title: "Hackathon  Participant",
+      provider: "PCTE - Punjab College of Technical Education",
+      duration: "2 Days",
+      year: "2024",
+      description:
+        "Developed an AI-powered finance assistant as part of a team and won 1st place.",
+      certificateLink:
+        "https://drive.google.com/file/d/1C_kQ860BQ6cKUaRJTUJL9UvvOYG6gBDP/view?usp=sharing", // or a public link
+    },
+    {
       title: "Web Design and  Development Course",
       provider: "Udemy",
       duration: "Completed Online",
       year: "2025",
       description:
         "Explored advanced MERN topics including JWT, Redux, and deployment.",
-      certificateLink: "https://drive.google.com/file/d/1VUN6PQ8_qkDIYijGbo0Jnd8n0W1dXVn8/view?usp=sharing"
+      certificateLink:
+        "https://drive.google.com/file/d/1VUN6PQ8_qkDIYijGbo0Jnd8n0W1dXVn8/view?usp=sharing",
     },
     {
       title: "MERN Stack Developer Training",
@@ -45,9 +50,9 @@ const Certifications = () => {
       year: "2025",
       description:
         "Developed full-stack apps using MongoDB, Express.js, React, and Node.js.",
-      certificateLink: "/certificates/mern-stack.pdf"
+      certificateLink:
+        "https://drive.google.com/file/d/1YvZPLExmLxgIJU30mmA4gaOU-T4zk4ss/view?usp=sharing",
     },
-
   ];
 
   return (
