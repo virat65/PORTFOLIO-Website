@@ -3,15 +3,6 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce         (Food Ordering Website)",
-      description:
-        "A full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database. Features include user authentication, shopping cart and admin dashboard.",
-      image: "/Foodwagon.png",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Bootstrap "],
-      liveDemo: "https://lastfoodwagon-frontend-tqo1.onrender.com/",
-      github: "https://github.com/virat65/LastFoodwagon.git",
-    },
-    {
       title: "MediLab",
       description:
         "Medi Lab is a web-based healthcare management platform that connects patients with doctors and medical services. Users can book appointments, view departments, and access doctor information, while doctors and admins can manage appointments and monitor schedules efficiently. Built using modern web technologies, it provides a seamless and user-friendly experience for both patients and medical staff.",
@@ -20,6 +11,16 @@ const Projects = () => {
       liveDemo: "https://medilab-project-frontend.onrender.com/",
       github: "https://github.com/virat65/MediLab-Project",
     },
+    {
+      title: "E-Commerce         (Food Ordering Website)",
+      description:
+        "A full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database. Features include user authentication, shopping cart and admin dashboard.",
+      image: "/Foodwagon.png",
+      technologies: ["React", "Node.js", "MongoDB", "Express", "Bootstrap "],
+      liveDemo: "https://lastfoodwagon-frontend-tqo1.onrender.com/",
+      github: "https://github.com/virat65/LastFoodwagon.git",
+    },
+
     {
       title: "Weather App",
       description:
