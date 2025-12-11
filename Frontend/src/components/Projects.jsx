@@ -12,6 +12,15 @@ const Projects = () => {
       github: "https://github.com/virat65/LastFoodwagon.git",
     },
     {
+      title: "MediLab",
+      description:
+        "Medi Lab is a web-based healthcare management platform that connects patients with doctors and medical services. Users can book appointments, view departments, and access doctor information, while doctors and admins can manage appointments and monitor schedules efficiently. Built using modern web technologies, it provides a seamless and user-friendly experience for both patients and medical staff.",
+      image: "/MediLab.png",
+      technologies: ["React", "Node.js", "MongoDB", "Express", "Bootstrap "],
+      liveDemo: "https://medilab-project-frontend.onrender.com/",
+      github: "https://github.com/virat65/MediLab-Project",
+    },
+    {
       title: "Weather App",
       description:
         "A responsive weather application that provides current weather conditions, forecasts, and location-based weather update (included wind speed) with a clean, intuitive interface and the autocomplete city names",
