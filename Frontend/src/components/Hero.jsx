@@ -35,7 +35,8 @@ const Hero = () => {
               <button
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1BdAtK2g-opQe0skMypgGrb-hxArvxzlk/view?usp=sharing"
+                    // "https://drive.google.com/file/d/1BdAtK2g-opQe0skMypgGrb-hxArvxzlk/view?usp=sharing"
+                    "https://drive.google.com/file/d/1BdAtK2g-opQe0skMypgGrb-hxArvxzlk/view?usp=drive_link"
                   )
                 }
                 className="btn btn-outline-light px-4 py-2 fw-medium"
